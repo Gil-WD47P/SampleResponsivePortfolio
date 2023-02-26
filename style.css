@@ -225,6 +225,7 @@ h3{
   margin-left: 10px;
   background-color: #3a98b9;
   color: white;
+  border: 2px solid white;
   transition: transform 0.4s;
 }
 .newsletter form input:last-child:hover {
