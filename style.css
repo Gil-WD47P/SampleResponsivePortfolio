@@ -48,21 +48,18 @@ nav ul li a:hover {
 }
 .container-one {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: 700px;
-  margin: 0 auto;
 }
 .about-one {
   width: 50%;
   height: 100%;
   background-color: white;
-  padding: 1em;
   font-weight: 700;
   color: black;
   text-align: left;
-  border-radius: 10px;
 }
 h1 {
   text-align: left;
@@ -72,10 +69,12 @@ h1 {
   margin-top: 200px;
   margin-bottom: 10px;
   text-align: left;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
-p {
+.dev {
+  font-size: 2rem;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .downloadbtn {
@@ -94,18 +93,13 @@ p {
   color: black;
 }
 .mypicture {
-  width: 30%;
-  height: 50%;
   background-color: white;
-  padding: 1em;
   color: black;
 }
 
 .image img {
   height: 400px;
   width: 400px;
-  display: block;
-  margin: auto;
   border-radius: 50%;
 }
 
