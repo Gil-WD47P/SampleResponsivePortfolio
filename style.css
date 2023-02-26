@@ -66,10 +66,15 @@ nav ul li a:hover {
 }
 h1 {
   text-align: left;
-  margin-top: 170px;
+  font-size: 5rem;
+}
+.hello{
+  margin-top: 200px;
   margin-bottom: 10px;
+  text-align: left;
   font-size: 3rem;
 }
+
 p {
   margin-bottom: 20px;
 }
@@ -97,8 +102,8 @@ p {
 }
 
 .image img {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   display: block;
   margin: auto;
   border-radius: 50%;
@@ -225,11 +230,11 @@ h3{
   margin-left: 10px;
   background-color: #3a98b9;
   color: white;
-  border: 2px solid white;
   transition: transform 0.4s;
 }
 .newsletter form input:last-child:hover {
     background-color: transparent;
+    border: 2px solid white;
 }
 
 .footer-about-social {
