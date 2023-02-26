@@ -14,12 +14,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <!-- Optional JavaScript; choose one of the two! -->
 
-<body>
-    <div class="hero-nav">
-        <nav>
-            <h2 class="logo">Portfo<span>lio</span></h2>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ -->
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</head>
+<!-- ----------------------------------------Header Section --------------------------------------------------------------->
+<header>
+    <div class="toggle-btn" onclick="myFunction();">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="logo">
+        <h1>Portfo<span>lio</span></h1>
+    </div>
+
+        <nav id="nav">
             <ul>
                 <li><a href="#">home</a></li>
                 <li><a href="#">service</a></li>
@@ -28,16 +49,25 @@
             </ul>
         </nav>
     </div>
+</header>
 
+<script type="text/JavaScript">
+    function myFunction(){
+        var navbar=document.getElementById('nav');
+        navbar.classList.toggle('show')
+    }
+</script>
+
+<body>
     <section class="main">
         <div class="container-one">
             <div class="about-one">
-                <h1 class="hello">Hello, my name is</h1> 
+                <h1 class="hello">Hello, my name is</h1>
                 <h1>Gilbert <span>Terbio</span> </h1>
                 <p class="dev">I am a Web Developer </p>
                 <a href="WD47P(Terbio, Gilbert B.).pdf" download class="downloadbtn">download cv</a>
             </div>
-            <div class="mypicture">
+            <div class="about-img">
                 <div class="image">
                     <img src="image1.jpg" />
                 </div>
@@ -45,9 +75,8 @@
         </div>
     </section>
 
-    <!-- Service Section Start-->
-    <section>
-        <div class="service">
+    <!-- ----------------------------------------Service Section Start---------------------------------------------------------->
+    <section class="service">
             <div class="title">
                 <h2>Services Offered</h2>
             </div>
@@ -101,11 +130,10 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 </body>
 <footer>
-    <!-- Newsletter -->
+    <!----------------------------------------------------Footer | Contact Section------------------------------------------------------->
     <section class="footer-about">
         <div class="about-two">
             <h3>About Me</h3>
@@ -148,6 +176,7 @@
             </div>
             <!-- </div> -->
     </section>
-     <h4 class="end">© Copyright by Gilbert Terbio</h4>
+    <h4 class="end">© Copyright by Gilbert Terbio</h4>
 </footer>
+
 </html>
