@@ -196,6 +196,11 @@ h5 {
   color: white;
 }
 
+.footer {
+  background: #000000;
+  height: 750px;
+}
+
 .footer-about {
   width: 100%;
   display: flex;
@@ -249,7 +254,7 @@ h3 {
 }
 
 .footer-about-social {
-  height: 500px;
+  height: 750px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -301,11 +306,8 @@ h3 {
 }
 
 .instagram-grid-1{
-  height: 350px;
   width: 100%;
-  padding: 20px 35px;
   background: #00000000;
-  border-radius: 20px;
   margin: 15px;
   position: relative;
   overflow: hidden;
@@ -318,6 +320,7 @@ h3 {
   background: black;
   color: white;
   font-size: 14px;
+  
 }
 
 /* -------------------------------------------------Media Query Screen 900px --------------------------------------------------------- */
@@ -355,5 +358,7 @@ h3 {
   }
 
   .footer-about-social{flex-direction: column;
+  }
+  .instagram-grid{flex-direction: column;
   }
 }
