@@ -296,13 +296,13 @@ h3 {
 
 .instagram-grid {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: row;
   align-items: center;
-  min-height: 400px;
 }
-.instagram-grid{
-  height: 370px;
-  width: 335px;
+
+.instagram-grid-1{
+  height: 100%;
+  width: 100%;
   padding: 20px 35px;
   background: #00000000;
   border-radius: 20px;
@@ -310,11 +310,6 @@ h3 {
   position: relative;
   overflow: hidden;
   text-align: center;
-  transition: transform 0.4s;
-  box-shadow: 0px 0px 5px #bbbaba, 0px 0px 15px #dfdddd;
-}
-.instagram-grid-1:hover {
-  transform: scale(1.2);
 }
 
 .end {
